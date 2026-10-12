@@ -1,0 +1,11 @@
+[project]
+name = "superstore-dashboard"
+version = "0.1.0"
+description = "Regional profit dashboard for the Global Superstore dataset (data app exercise)"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "pandas>=3.0.6",
+    "plotly>=7.1.0",
+    "streamlit>=1.65.0",
+]
