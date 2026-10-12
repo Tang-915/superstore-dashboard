@@ -15,8 +15,10 @@ and it is deliberately built around a single controllable lever: **deep discount
 
 We wanted a dataset with a believable operations story: orders, revenue, discounts, returns.
 Global Superstore is a retail fact table (who bought what, where, at which discount, at what profit)
-across 7 markets and 17 sub-categories. We read the dataset page and verified in the EDA
-(`eda.ipynb`) that it covers 48 complete months — no partial months — and that the only
+across 7 markets and 17 sub-categories — the well-known Tableau "Global Superstore" sample,
+released on Kaggle by Chandra Shekhar (license: Other; single file `Global Superstore.xls`,
+18.2 MB, three sheets: Orders / Returns / People). We read the dataset page and verified in the
+EDA (`eda.ipynb`) that it covers 48 complete months — no partial months — and that the only
 missing column is `Postal Code` (populated for US rows only, so city-level geography is
 unusable outside the US).
 
@@ -123,4 +125,16 @@ uv sync
 uv run streamlit run app.py
 ```
 
-Deployed to Streamlit Community Cloud (Python 3.14 under Advanced settings) from this repository.
+Deploy from this repository to Streamlit Community Cloud:
+
+1. Push the repo to GitHub (public) — `git push -u origin main`.
+2. <https://share.streamlit.io> → **New app** → pick the repo → main file `app.py`.
+3. **Advanced settings → Python version = 3.14** (the repo already pins `.python-version` to 3.14 and ships a `uv.lock`).
+4. Deploy, then paste the app URL into the *Deployed app* line at the top of this file.
+
+## Before submitting (checklist)
+
+- [ ] Replace `Team ProfitWatch` with your real team name (app title in `app.py` line 12, and this README).
+- [ ] Replace `https://YOUR-APP-URL.streamlit.app` above with the deployed app URL.
+- [ ] Push to **your own** public GitHub repo and submit both URLs on Canvas (each student submits individually; the app and repo must be your own).
+
