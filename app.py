@@ -14,7 +14,7 @@ import streamlit as st
 
 st.set_page_config(page_title="Regional Profit Watch", layout="wide")
 
-TEAM_NAME = "Team ProfitWatch"  # TODO: replace with your own team name
+TEAM_NAME = "Team13"
 DATA_PERIOD = "Data: Jan 2011 – Dec 2014 (Kaggle snapshot) · Production refresh: nightly from the order system"
 
 # ---------------------------------------------------------------- load data

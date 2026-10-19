@@ -1,6 +1,6 @@
-# Team ProfitWatch · Regional Profit Watch — Global Superstore
+# Team13 · Regional Profit Watch — Global Superstore
 
-**Deployed app:** <https://YOUR-APP-URL.streamlit.app> · **Team:** Team ProfitWatch
+**Deployed app:** <https://YOUR-APP-URL.streamlit.app> · **Team:** Team13
 
 A one-page Streamlit dashboard for a **regional sales manager** at a global retail chain.
 It answers one question in five seconds — *is my region's profit healthy, and if not, where is it leaking?* —
@@ -79,7 +79,7 @@ by our decision-maker*, which is what earns it the page.
 
 ```
 ┌──────────────────────────────────────────────────────────────┐
-│ [sidebar]           Team ProfitWatch · Regional Profit Watch │
+│ [sidebar]           Team13 · Regional Profit Watch           │
 │ Market ▾ APAC       for the regional sales manager: cap deep │
 │ Region ▾ Oceania    discounts when margin falls              │
 │ Years  ▸ 2013–2014  Data: Jan 2011 – Dec 2014 · nightly       │
@@ -181,7 +181,7 @@ Deploy from this repository to Streamlit Community Cloud:
 
 ## Before submitting (checklist)
 
-- [ ] Replace `Team ProfitWatch` with your real team name (the `TEAM_NAME` constant on line 17 of `app.py`, and the title/Team line in this README).
+- [x] Team name set to `Team13` (the `TEAM_NAME` constant on line 17 of `app.py`, and this README).
 - [ ] Replace `https://YOUR-APP-URL.streamlit.app` above with the deployed app URL.
 - [ ] Push to **your own** public GitHub repo and submit both URLs on Canvas (each student submits individually; the app and repo must be your own).
 
