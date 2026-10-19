@@ -12,9 +12,9 @@ import plotly.express as px
 import plotly.graph_objects as go
 import streamlit as st
 
-st.set_page_config(page_title="Regional Profit Watch", page_icon="🛒", layout="wide")
+st.set_page_config(page_title="Regional Profit Watch", layout="wide")
 
-TEAM_NAME = "Team ProfitWatch"
+TEAM_NAME = "Team ProfitWatch"  # TODO: replace with your own team name
 DATA_PERIOD = "Data: Jan 2011 – Dec 2014 (Kaggle snapshot) · Production refresh: nightly from the order system"
 
 # ---------------------------------------------------------------- load data
@@ -184,9 +184,9 @@ st.plotly_chart(fig2, width="stretch")
 with st.expander(f"Loss-making line items sold at ≥30% discount ({view['deep'].sum():,} lines)"):
     st.markdown(
         "The rows a pricing review would start from — worst line items first. "
-        "⚠️ Sales and profit are **gross of returns** (~5.9% of orders in this snapshot were "
-        "returned; the returns table has no amounts), and the data is a synthetic Kaggle "
-        "snapshot, so treat the levels as illustrative."
+        "Sales and profit are **gross of returns**: 1,173 of 25,035 orders (4.7%) were returned "
+        "and the returns table carries no amounts, so nothing can be netted down. The data is a "
+        "synthetic Kaggle snapshot — treat the levels as illustrative, not audited."
     )
     worst = (
         view[view["deep"] & (view["Profit"] < 0)]
