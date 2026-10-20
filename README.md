@@ -172,16 +172,7 @@ uv sync
 uv run streamlit run app.py
 ```
 
-Deploy from this repository to Streamlit Community Cloud:
-
-1. Push the repo to GitHub (public) — `git push -u origin main`.
-2. <https://share.streamlit.io> → **New app** → pick the repo → main file `app.py`.
-3. **Advanced settings → Python version = 3.14** (the repo already pins `.python-version` to 3.14 and ships a `uv.lock`).
-4. Deploy, then paste the app URL into the *Deployed app* line at the top of this file.
-
-## Before submitting (checklist)
-
-- [x] Team name set to `Team13` (the `TEAM_NAME` constant on line 17 of `app.py`, and this README).
-- [x] Deployed app URL filled in above: <https://superstore-dashboard-aznx39gbcocom99pfyqkt4.streamlit.app>.
-- [ ] Push to **your own** public GitHub repo and submit both URLs on Canvas (each student submits individually; the app and repo must be your own).
+Deployed to [Streamlit Community Cloud](https://share.streamlit.io) from this repository — main
+file `app.py`, Python 3.14 under Advanced settings. The repo pins `.python-version` to 3.14 and
+ships a `uv.lock`, so Streamlit installs the exact environment with no `requirements.txt`.
 
