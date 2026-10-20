@@ -1,6 +1,6 @@
 # Team13 · Regional Profit Watch — Global Superstore
 
-**Deployed app:** <https://YOUR-APP-URL.streamlit.app> · **Team:** Team13
+**Deployed app:** <https://superstore-dashboard-aznx39gbcocom99pfyqkt4.streamlit.app> · **Team:** Team13
 
 A one-page Streamlit dashboard for a **regional sales manager** at a global retail chain.
 It answers one question in five seconds — *is my region's profit healthy, and if not, where is it leaking?* —
