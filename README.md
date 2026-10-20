@@ -182,6 +182,6 @@ Deploy from this repository to Streamlit Community Cloud:
 ## Before submitting (checklist)
 
 - [x] Team name set to `Team13` (the `TEAM_NAME` constant on line 17 of `app.py`, and this README).
-- [ ] Replace `https://YOUR-APP-URL.streamlit.app` above with the deployed app URL.
+- [x] Deployed app URL filled in above: <https://superstore-dashboard-aznx39gbcocom99pfyqkt4.streamlit.app>.
 - [ ] Push to **your own** public GitHub repo and submit both URLs on Canvas (each student submits individually; the app and repo must be your own).
 
